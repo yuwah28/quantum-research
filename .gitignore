@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# Python cache & virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+.envrc
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_save
+.profile_default/
+*.nbconvert.ipynb
+
+# Build/artifacts
+dist/
+build/
+*.egg-info/
+
+# Data and outputs
+data/
+outputs/
+results/
+logs/
+
+# OS / IDE files
+.vscode/
+.idea/
