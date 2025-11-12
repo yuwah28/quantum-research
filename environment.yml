@@ -1,0 +1,24 @@
+name: quantum-research
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - jupyter
+  - ipykernel
+  - numpy
+  - scipy
+  - numba
+  - matplotlib
+  - networkx
+  - rustworkx
+  - cython
+  - cmake
+  - pip:
+      - stim
+      - sinter
+      - pymatching
+      - qiskit
+      - cirq
+      - ruff
+      - black
